@@ -10,8 +10,4 @@ def self.learn(data)
   @knowledge << data
 end
 
-def self.knowledge
- @knowledge
-end
-
 end
