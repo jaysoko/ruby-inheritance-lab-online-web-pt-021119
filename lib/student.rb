@@ -4,8 +4,12 @@ def initialize
 @knowledge = []
 end
 
-def self.learn(knowledge)
-  @knowledge << knowledge
+def self.learn(data)
+  @knowledge << data
+end
+
+def self.knowledge
+ @knowledge
 end
 
 end
